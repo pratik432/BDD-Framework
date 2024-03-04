@@ -1,0 +1,148 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-03-04T13:34:21.973Z",
+        "line": 3,
+        "name": "One-Way Ticket Search",
+        "description": "",
+        "id": "book-flight-ticket;one-way-ticket-search",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6389688600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I go to Goibibo site",
+            "match": {
+              "location": "StepDefinations.SearchForFlight.i_go_to_Goibibo_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"PageObject.SearchForFlightPageObject.enterway()\" because \"this.s\" is null\r\n\tat StepDefinations.SearchForFlight.i_choose_one_way(SearchForFlight.java:28)\r\n\tat ✽.I choose one way(file:///C:/Users/Prati/eclipse-workspace/GoibiboBDDFramework/src/test/java/Feature/MyHoliday.feature:5)\r\n",
+              "duration": 3998800,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "I choose one way",
+            "match": {
+              "location": "StepDefinations.SearchForFlight.i_choose_one_way()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "I type Mumbai and choose Mumbai,India(BOM) in the field From",
+            "match": {
+              "location": "StepDefinations.SearchForFlight.i_type_Mumbai_and_choose_Mumbai_India_BOM_in_the_field_From()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1001900,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "I type Delhi and choose Delhi,India(DEL) in the field To",
+            "match": {
+              "location": "StepDefinations.SearchForFlight.i_type_Delhi_and_choose_Delhi_India_DEL_in_the_field_To()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I choose 15/03/22 referring to Departure",
+            "match": {
+              "arguments": [
+                {
+                  "val": "15",
+                  "offset": 9
+                },
+                {
+                  "val": "03",
+                  "offset": 12
+                },
+                {
+                  "val": "22",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDefinations.SearchForFlight.i_choose_referring_to_Departure(int,int,int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I click on Search",
+            "match": {
+              "location": "StepDefinations.SearchForFlight.i_click_on_Search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 999700,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "will be displayed Choose Flight",
+            "match": {
+              "location": "StepDefinations.SearchForFlight.will_be_displayed_Choose_Flight()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000900,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "move to ticket summary",
+            "match": {
+              "location": "StepDefinations.SearchForFlight.move_to_ticket_summary()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "close the browser",
+            "match": {
+              "location": "StepDefinations.SearchForFlight.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Book flight ticket",
+    "description": "",
+    "id": "book-flight-ticket",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Feature/MyHoliday.feature",
+    "tags": []
+  }
+]
